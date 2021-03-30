@@ -1,6 +1,6 @@
 kind: Rules
 metadata:
-  namespace: k8s-tutorial
+  namespace: petclinic
 spec:
   - name: "k8s.AddTeamName"
     description: "Adding a label to all YAMLs with a static team name"

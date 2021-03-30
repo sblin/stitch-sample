@@ -1,6 +1,6 @@
 kind: Rules
 metadata:
-  namespace: k8s-tutorial
+  namespace: petclinic
 spec:
   - name: "k8s.ChangePortForService"
     description: "Enforces use of port 8081 instead of 8080 for a K8s service"

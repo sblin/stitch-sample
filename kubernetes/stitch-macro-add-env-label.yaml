@@ -1,6 +1,6 @@
 kind: Macros
 metadata:
-  namespace: k8s-tutorial
+  namespace: petclinic
 spec:
   - name: "k8s.MacroFreemarkerAddLabels"
     description: "This is a macro for adding application and environment labels to /metadata/labels"
